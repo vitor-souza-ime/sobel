@@ -1,4 +1,3 @@
-````markdown
 # Sobel Edge Detection
 
 Este repositório contém um exemplo em Python que demonstra a **detecção de bordas** em imagens usando o **filtro Sobel**. O código baixa uma imagem da internet, converte para escala de cinza e aplica o filtro Sobel para realçar os contornos.
@@ -59,7 +58,7 @@ sobel_y = cv2.Sobel(gray, cv2.CV_64F, 0, 1, ksize=5)
 
 Ao executar o script com a imagem:
 
-![Exemplo de saída](https://upload.wikimedia.org/wikipedia/commons/thumb/6/66/Johannes_Vermeer_%281632-1675%29_-_The_Girl_With_The_Pearl_Earring_%281665%29.jpg/800px-Johannes_Vermeer_%281632-1675%29_-_The_Girl_With_The_Pearl_Earring_%281665%29.jpg)
+<img width="711" height="427" alt="image" src="https://github.com/user-attachments/assets/b1fb74a2-158f-4f7d-93a3-9ae256987d7c" />
 
 O resultado será exibido em duas colunas: **Original** e **Filtro Sobel**.
 
